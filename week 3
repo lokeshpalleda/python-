@@ -1,0 +1,57 @@
+"""
+avg &sum
+l=[10,20,30]
+print("sum of numbers")
+print(sum(l))
+len(l)
+avg=sum(l)/len(l)
+print("avg")
+print(avg)
+"""
+
+"""
+reverse
+l=[10,20,30]
+l2=[]
+print("enter element")
+ele=input()
+l.append(ele)
+l2=l
+l2.reverse()
+print("reverse")
+print(l2)
+print("slicing")
+print(l2[::-1])
+"""
+
+"""
+#interchange
+l=[10,20,30,40]
+l[0],l[-1]=l[-1],l[0]
+print(l)
+n=len(l)      
+x=l[0]
+l[0]=l[n-1]
+l[n-1]=x
+print(l)
+"""
+
+
+"""
+#firstoccurance
+l=[10,20,30,30,40]
+print("enter an element")
+g=int(input())
+l.remove(g)
+print(l)
+"""
+
+"""
+max and min index
+l=[10,20,30,40]
+n=max(l)
+m=min(l)
+print("max index",l.index(n))
+print("min index",l.index(m))
+"""
+
