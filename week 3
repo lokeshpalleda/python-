@@ -1,3 +1,4 @@
+
 """
 avg &sum
 l=[10,20,30]
@@ -54,4 +55,39 @@ m=min(l)
 print("max index",l.index(n))
 print("min index",l.index(m))
 """
+
+"""
+#even or odd
+l=[]
+even=[]
+odd=[]
+n=int(input("enter number of elements:"))
+for i in range(n):
+    ele=int(input("enter element:"))
+    l.append(ele)
+print(l)
+for i in range(n):
+    if l[i]%2==0:
+        even.append(l[i])
+    else:
+        odd.append(l[i])
+print("even",even)
+print("odd",odd)
+"""
+        
+#concanate
+ans=[]
+l1=["m","na","i","abhi"]
+l2=["y","me","s","ram"]
+print(list(zip(l1,l2)))
+
+
+
+
+
+
+
+
+
+
 
