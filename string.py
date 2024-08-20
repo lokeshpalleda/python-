@@ -27,3 +27,11 @@ if k in m:
 	print("it is a vowel")
 else:
 	print("not a vowel")
+m={'a','e','i','o','u'}
+k=input("enter a string:")
+for l in k:
+	if l in m:
+		d+=1
+		print(l)
+print("number of vowels:",d)
+	
