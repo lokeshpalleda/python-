@@ -1,12 +1,12 @@
 #GCD
-'''def gcd(a,b):
+def gcd(a,b):
 	while b!=0:
 		a,b=b,a%b
 	return a
-print(gcd(16,32))'''
+print(gcd(16,32))
 
 #recursive GCD
-'''def gcd(a,b):
+def gcd(a,b):
 	if b==0:
 		return a
 	else:
@@ -14,20 +14,20 @@ print(gcd(16,32))'''
 a=int(input("enter number:"))
 b=int(input("enter number:"))
 n=gcd(a,b)
-print(n)'''
+print(n)
 
 #recursive fact
-'''def fact(i):
+def fact(i):
 	if i==0|i==1:
 		return 1
 	else:
 		return i*fact(i-1)
 n=int(input("enter number:"))
 num=fact(n)
-print(num)'''
+print(num)
 
 #fabnoci
-'''def fab(a):
+def fab(a):
 	if a<=1:
 		return a
 	else:
@@ -37,17 +37,17 @@ if n<=0:
 	print("no fab")
 else:
 	for i in range(n):
-		print(fab(i))'''
+		print(fab(i))
 		
 #add in dict
-'''dic={'a':1,'b':2,'c':3,'d':4}
+dic={'a':1,'b':2,'c':3,'d':4}
 dic.update({'e':5})
-print((dic))'''
+print((dic))
 
 #sum
-'''dic={'a':1,'b':2,'c':3,'d':4}
+dic={'a':1,'b':2,'c':3,'d':4}
 x=dic.values()
-print(sum(x))'''
+print(sum(x))
 
 #check
 #error
@@ -57,7 +57,3 @@ if n in d.keys():
 	print("found")
 else:
 	print("not found")
-
-
-
-
