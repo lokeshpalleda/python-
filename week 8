@@ -52,8 +52,8 @@ print(sum(x))'''
 #check
 #error
 d={'a':1,'b':2,'c':3,'d':4}
-d=input("enter key")
-if d.keys==d.n:
+n=input("enter key")
+if n in d.keys():
 	print("found")
 else:
 	print("not found")
