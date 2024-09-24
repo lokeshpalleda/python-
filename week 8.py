@@ -47,10 +47,12 @@ print((dic))
 #sum
 dic={'a':1,'b':2,'c':3,'d':4}
 x=dic.values()
-print(sum(x))
+sum=0
+for i in dic.values():
+	sum+=i
+	print(sum)
 
 #check
-#error
 d={'a':1,'b':2,'c':3,'d':4}
 n=input("enter key")
 if n in d.keys():
