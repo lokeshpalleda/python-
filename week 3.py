@@ -1,6 +1,6 @@
 
-"""
-avg &sum
+
+#avg &sum
 l=[10,20,30]
 print("sum of numbers")
 print(sum(l))
@@ -8,10 +8,10 @@ len(l)
 avg=sum(l)/len(l)
 print("avg")
 print(avg)
-"""
 
-"""
-reverse
+
+
+#reverse
 l=[10,20,30]
 l2=[]
 print("enter element")
@@ -23,9 +23,9 @@ print("reverse")
 print(l2)
 print("slicing")
 print(l2[::-1])
-"""
 
-"""
+
+
 #interchange
 l=[10,20,30,40]
 l[0],l[-1]=l[-1],l[0]
@@ -35,28 +35,27 @@ x=l[0]
 l[0]=l[n-1]
 l[n-1]=x
 print(l)
-"""
 
 
-"""
+
+
 #firstoccurance
 l=[10,20,30,30,40]
 print("enter an element")
 g=int(input())
 l.remove(g)
 print(l)
-"""
 
-"""
-max and min index
+
+#max and min index
 l=[10,20,30,40]
 n=max(l)
 m=min(l)
 print("max index",l.index(n))
 print("min index",l.index(m))
-"""
 
-"""
+
+
 #even or odd
 l=[]
 even=[]
@@ -73,7 +72,7 @@ for i in range(n):
         odd.append(l[i])
 print("even",even)
 print("odd",odd)
-"""
+
         
 #concanate
 ans=[]
